@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
@@ -25,6 +25,4 @@ jobs:
     - name: Build
       run: |
         npm install
-        
-        
        
