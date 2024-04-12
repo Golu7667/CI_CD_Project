@@ -2,7 +2,7 @@ const express=require("express")
 const mongoose=require("mongoose")
 const app=express()
 
-mongoose.connect("",{
+mongoose.connect("mongodb+srv://github:Github5052@cluster0.z2rkxnh.mongodb.net/FormData?retryWrites=true&w=majority&appName=Cluster0",{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(()=>{
