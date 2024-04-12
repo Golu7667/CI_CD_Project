@@ -2,7 +2,7 @@ const express=require("express")
 const app=express()
 
 app.get("/",(req,res)=>{
-    res.send("hi port is running on 8000 & change ")
+    res.send("hi port is running on 8000 & change & update after update ")
 })
 
 app.listen(8000,()=>{
